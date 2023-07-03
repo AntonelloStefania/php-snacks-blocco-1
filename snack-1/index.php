@@ -36,7 +36,7 @@ $matches =[
     <div class="container">
         <div class="row">
             <div class="col-4 offset-4">
-                <div class="ul list-group">
+                <ul class="ul list-group">
                     <?php foreach($matches as $match) {?>
                         <li class="list-group-item text-center py-3">
                             <h4>teams:</h4>
@@ -45,7 +45,7 @@ $matches =[
                             <?php echo $match['result'] ?>
                         </li>
                     <?php }?>
-                </div>
+                </ul>
             </div>
         </div>
     </div>
